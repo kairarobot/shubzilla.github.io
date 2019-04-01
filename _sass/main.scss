@@ -104,11 +104,14 @@ body {
       flex-wrap: wrap;
       justify-content: space-between;
       li {
+        a {
+          padding-bottom: 0px;
+        }
         min-width: 200px;
         flex: 1 1 50%;
         max-width: 50%;
-        min-height: 300px;
-        max-height: 300px;
+        min-height: 360px;
+        max-height: 360px;
         padding: 5px;
         display: flex;
         flex-direction: column;
